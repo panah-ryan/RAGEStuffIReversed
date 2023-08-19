@@ -168,13 +168,1011 @@
 			"return_type": "void"
 		},
 		"0x9DE3DE24": {
-			"name": "_0x9DE3DE24",
+			"name": "GET_CONSOLE_COMMAND_TOKEN",
 			"comment": "",
 			"params": [],
 			"return_type": "void"
 		},
 		"0x608F5BC6": {
 			"name": "GET_NUM_CONSOLE_COMMAND_TOKENS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		}
+	},
+	"AMBIENCE_AUDIO": {
+		"0x2A3B1045": {
+			"name": "_AMBIENCE_UPDATE_TERRITORY",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x27A96719": {
+			"name": "_AMBIENCE_UPDATE_LOCATION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC0556FB8": {
+			"name": "_AMBIENCE_VALIDATE_REGION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		}
+	},
+	"DYNAMICMIXER": {
+		"0xECD8E116": {
+			"name": "DYNAMICMIXER_TRIGGERSTATE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xA82D893C": {
+			"name": "DYNAMICMIXER_TRIGGERSTATE_PERSISTENT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF86010D1": {
+			"name": "DYNAMICMIXER_DETRIGGERSTATE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xADCC16A2": {
+			"name": "_DYNAMICMIXER_TRIGGERSTATE_PERSISTENT_ALT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		}
+	},
+	"PED_AUDIO_MANAGER": {
+		"0xD02757C1": {
+			"name": "CAN_ACTOR_ENUM_PLAY_SPEECH_CONTEXT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x886E06C2": {
+			"name": "REGISTER_ACTOR_SPEECH_CONTEXT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xB6839756": {
+			"name": "FINISH_REGISTERING_ACTOR_SPEECH_CONTEXTS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xCB139D15": {
+			"name": "REGISTER_NUM_SPEECH_CONTEXTS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF07F5E41": {
+			"name": "_0xF07F5E41",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		}
+	},
+	"AUDIO": {
+		"0x1CEA7FCE": {
+			"name": "NEW_SCRIPTED_CONVERSATION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x96CD0513": {
+			"name": "ADD_LINE_TO_CONVERSATION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF1C40BCA": {
+			"name": "ADD_NEW_CONVERSATION_SPEAKER",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x4FAD0D8F": {
+			"name": "ADD_NEW_FRONTEND_CONVERSATION_SPEAKER",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE5DE7D9D": {
+			"name": "START_SCRIPT_CONVERSATION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xCB8FD96F": {
+			"name": "IS_SCRIPTED_CONVERSATION_ONGOING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE2C9C6F8": {
+			"name": "PAUSE_SCRIPTED_CONVERSATION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6CB24B56": {
+			"name": "RESTART_SCRIPTED_CONVERSATION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC842F0C9": {
+			"name": "ABORT_SCRIPTED_CONVERSATION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1CFC44F9": {
+			"name": "SET_MAX_SCRIPTED_CONVERSATION_DISTANCE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC1C29ABC": {
+			"name": "RESET_MAX_SCRIPTED_CONVERSATION_DISTANCE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x713519AB": {
+			"name": "HAS_SCRIPTED_CONVERSATION_PLAYED_RECENTLY",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x66728EFE": {
+			"name": "UNREGISTER_SCRIPT_WITH_AUDIO",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x916E37CA": {
+			"name": "REQUEST_MISSION_AUDIO_BANK",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x4E92CC7A": {
+			"name": "MISSION_AUDIO_BANK_NO_LONGER_NEEDED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6DCC98E9": {
+			"name": "AMBIENT_AUDIO_BANK_NO_LONGER_NEEDED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6AE0AD56": {
+			"name": "GET_SOUND_ID",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9C080899": {
+			"name": "RELEASE_SOUND_ID",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE1D265FA": {
+			"name": "IS_SOUND_ID_VALID",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xB6E1917F": {
+			"name": "PLAY_SOUND",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9DA2503": {
+			"name": "PLAY_SOUND_INIT_PARAMS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x66763C4A": {
+			"name": "PLAY_SOUND_INIT_PARAMS_PERSISTENT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x2E458F74": {
+			"name": "PLAY_SOUND_FRONTEND",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x49053A94": {
+			"name": "PLAY_SOUND_FRONTEND_INITPARAMS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xB157BBB4": {
+			"name": "PLAY_SOUND_FRONTEND_PERSISTENT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5BC72D7": {
+			"name": "PLAY_SOUND_FROM_POSITION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x19E5CF85": {
+			"name": "PLAY_SOUND_FROM_POSITION_INITPARAMS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5B05E3E0": {
+			"name": "PLAY_SOUND_FROM_POSITION_PERSISTENT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3375FB38": {
+			"name": "PLAY_WALLA_SOUND_FROM_POSITION_PERSISTENT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x628832AD": {
+			"name": "PLAY_SOUND_FROM_ACTOR",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x4634B6BE": {
+			"name": "PLAY_WALLA_SOUND_FROM_ACTOR",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6A515A49": {
+			"name": "PLAY_SOUND_FROM_OBJECT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xBD0E8EBA": {
+			"name": "AUDIO_SET_VEHICLE_DAMAGED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xCD7F4030": {
+			"name": "STOP_SOUND",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE85AEC2E": {
+			"name": "HAS_SOUND_FINISHED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x74CA8E22": {
+			"name": "AUDIO_ATTACH_MICROPHONE_TO_ACTOR",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x66FCA3F7": {
+			"name": "AUDIO_SET_MISSION_NAME_FOR_JOURNAL",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x14ED45FB": {
+			"name": "AUDIO_CLEAR_MISSION_NAME_FOR_JOURNAL",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x7D95325E": {
+			"name": "AUDIO_RESET_SPEECH_HISTORY",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1BB84187": {
+			"name": "AUDIO_RESET_SCRIPTED_SPEECH_HISTORY",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3DFD83DE": {
+			"name": "_HAS_SCRIPTED_CONVERSATION_PLAYED_ALREADY",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xDD0320CB": {
+			"name": "_CLEAR_SCRIPTED_CONVERSATION_HISTORY",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x31BAF169": {
+			"name": "_SAY_AMBIENT_SPEECH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xBA734A15": {
+			"name": "_SAY_SINGLE_LINE_SPEECH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x31E983D": {
+			"name": "SAY_SINGLE_LINE_STRING_WITH_REPLY",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x871084C": {
+			"name": "_SAY_AMBIENT_SPEECH_OVER_PAIN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x12D077CA": {
+			"name": "_SAY_SINGLE_LINE_SPEECH_OVER_PAIN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x91DE3A31": {
+			"name": "SAY_SINGLE_LINE_STRING_WITH_REPLY_OVER_PAIN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xFDA41D54": {
+			"name": "_SAY_SINGLE_LINE_SPEECH_THROUGH_BLOCK",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x955E5EEB": {
+			"name": "_SAY_SINGLE_LINE_STRING_WITH_BACKUPS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x755382BC": {
+			"name": "SAY_SINGLE_LINE_SCRIPTED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x84A909EC": {
+			"name": "SAY_SINGLE_LINE_STRING_BEAT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3F226995": {
+			"name": "_SAY_SINGLE_LINE_SPEECH_SCRIPTED_INTERRUPT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC9D3A484": {
+			"name": "AUDIO_PLAY_VOCAL_EFFECT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE5F39107": {
+			"name": "AUDIO_PLAY_VOCAL_EFFECT_EVEN_IF_DEAD",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x123709E8": {
+			"name": "AUDIO_PLAY_PAIN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xA7D08EE9": {
+			"name": "AUDIO_TRIGGER_PLAYER_KILLED_EVERYONE_SPEECH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC0E28BF0": {
+			"name": "TREAT_AMBIENT_SPEECH_AS_SCRIPTED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xBD2EA1A1": {
+			"name": "SET_AMBIENT_VOICE_NAME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x77402033": {
+			"name": "CLEAR_ALTERNATE_SPEECH_CONTEXT_FOR_PAIN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x4DBD473B": {
+			"name": "CANCEL_CURRENTLY_PLAYING_AMBIENT_SPEECH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1972E8AA": {
+			"name": "IS_AMBIENT_SPEECH_PLAYING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x2C653904": {
+			"name": "IS_SCRIPTED_SPEECH_PLAYING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x2B74A6D6": {
+			"name": "IS_ANY_SPEECH_PLAYING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x462B3A65": {
+			"name": "AUDIO_STOP_PAIN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x96161235": {
+			"name": "AUDIO_PLAY_PLAYER_HOGTIE_LINE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3184B507": {
+			"name": "AUDIO_TRIGGER_PLAYER_LOOTING_MALE_SPEECH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x489B3078": {
+			"name": "AUDIO_TRIGGER_PLAYER_LOOTING_FEMALE_SPEECH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xAA565B11": {
+			"name": "AUDIO_TRIGGER_PLAYER_LOOTING_FEMALE_ZOMBIE_SPEECH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x2CA089EC": {
+			"name": "AUDIO_TRIGGER_PLAYER_LOOTING_MALE_ZOMBIE_SPEECH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x43C5F320": {
+			"name": "AUDIO_SHUT_OFF_WALLA",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF7B747CA": {
+			"name": "AUDIO_TURN_ON_WALLA",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF0D28043": {
+			"name": "SET_LOCAL_PLAYER_VOICE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x33BD1A80": {
+			"name": "SET_LOCAL_PLAYER_PAIN_VOICE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1F7F405C": {
+			"name": "AUDIO_TURN_OFF_PAIN_VOCALS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x2B1B76E8": {
+			"name": "AUDIO_TURN_ON_PAIN_VOCALS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE4D418D1": {
+			"name": "_AUDIO_TURN_OFF_VOCAL_EFFECTS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xAF6A3160": {
+			"name": "AUDIO_SET_PLAYER_MOOD",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x94A24A5C": {
+			"name": "_AUDIO_ALLOW_PRE_DUAL_SPEECH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD021B37F": {
+			"name": "_AUDIO_DISALLOW_PRE_DUAL_SPEECH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xA343FDBB": {
+			"name": "AUDIO_CLEAR_PLAYER_DISABLED_CONTEXT_LIST",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xA4F209D5": {
+			"name": "_AUDIO_ADD_TO_DISABLED_CONTEXT_LIST",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x45E20057": {
+			"name": "AUDIO_DISABLE_PLAYER_TAUNTS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x15547025": {
+			"name": "AUDIO_ENABLE_PLAYER_TAUNTS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE0553D6B": {
+			"name": "AUDIO_INIT_CAUCASIAN_ARMY_AE_RANGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD68E04BB": {
+			"name": "AUDIO_INIT_MEXICAN_ARMY_AE_RANGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x638EAF70": {
+			"name": "AUDIO_INIT_MISSION_CHARACTER_AE_RANGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xEA975A79": {
+			"name": "AUDIO_INIT_RCM_CHARACTER_AE_RANGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6BB42C21": {
+			"name": "AUDIO_INIT_FAC_INVALID_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE634931": {
+			"name": "AUDIO_INIT_FAC_CATTLE_RUSTLER_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x567712E5": {
+			"name": "AUDIO_INIT_FAC_DRUNKNDIRTY_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xB888B369": {
+			"name": "AUDIO_INIT_FAC_GENERIC_CRIMINAL_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x306D9FEE": {
+			"name": "AUDIO_INIT_FAC_INDIAN_LAW_ENFORCEMENT_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC3614E0A": {
+			"name": "AUDIO_INIT_FAC_INDIAN_RAIDER_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF962F2B8": {
+			"name": "AUDIO_INIT_FAC_LAW_ENFORCEMENT_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x22D0DF9B": {
+			"name": "AUDIO_INIT_FAC_MEXICAN_BANDITO_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xA234C5D0": {
+			"name": "AUDIO_INIT_FAC_MEXICAN_LAW_ENFORCEMENT_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x733BA9F5": {
+			"name": "AUDIO_INIT_FAC_MEXICAN_REBEL_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x79351E54": {
+			"name": "AUDIO_INIT_FAC_MEXICAN_SOLDIER_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xCCBE7F0F": {
+			"name": "AUDIO_INIT_FAC_SMUGGLERS_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5FCF3B85": {
+			"name": "_AUDIO_INIT_FAC_US_LAW_ENFORCEMENT_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9D886C2F": {
+			"name": "AUDIO_INIT_ZOMBIE_BRUISER_AE_RANGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x39F5EF0F": {
+			"name": "AUDIO_INIT_ZOMBIE_FAST_AE_RANGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD6CC6907": {
+			"name": "AUDIO_INIT_ZOMBIE_TOXIC_AE_RANGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x714D5D09": {
+			"name": "AUDIO_INIT_ZOMBIE_MP_PLAYER_AE_RANGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xBF959948": {
+			"name": "AUDIO_INIT_ZOMBIE_MP_FEMALE_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3C163FDD": {
+			"name": "AUDIO_INIT_FAC_ZOMBIE_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xDC330FB9": {
+			"name": "AUDIO_SET_CURRENT_AREA_IS_UNDER_ZOMBIE_ATTACK",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x39EF8DA7": {
+			"name": "AUDIO_INIT_ZOMBIE_ZONE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x79FD0F": {
+			"name": "AUDIO_INIT_ZOMBIE_PACK_INFO",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x67770F4B": {
+			"name": "AUDIO_INIT_NUN_AE_RANGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x8A6D03BE": {
+			"name": "_AUDIO_SET_MAX_FOOTSTEPS_UPDATE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x90DD37E7": {
+			"name": "_0x90DD37E7",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xFF92B49D": {
+			"name": "STOP_PED_SPEAKING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xEB8A51C2": {
+			"name": "AUDIO_MISSION_INIT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD1FD31DE": {
+			"name": "AUDIO_MISSION_RELEASE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xEB866555": {
+			"name": "AUDIO_PLAY_DISTANT_THUNDER",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xA2A356A7": {
+			"name": "AUDIO_MUSIC_FORCE_TRACK",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6CEFA97A": {
+			"name": "AUDIO_MUSIC_FORCE_TRACK_HASH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x2ACEE2ED": {
+			"name": "_0x2ACEE2ED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x85A35B18": {
+			"name": "_0x85A35B18",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x633B8905": {
+			"name": "AUDIO_MUSIC_SET_MOOD",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x714DA5BB": {
+			"name": "AUDIO_MUSIC_ONE_SHOT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x7CC2738F": {
+			"name": "AUDIO_MUSIC_PLAY_PREPARED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x704DBAC9": {
+			"name": "_AUDIO_MUSIC_GET_RANDOM_TRACK_HASH_FROM_TRACK_LIST",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xBF316157": {
+			"name": "AUDIO_MUSIC_IS_PREPARED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x789C753C": {
+			"name": "AUDIO_MUSIC_SET_STATE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xA3A2984E": {
+			"name": "AUDIO_MUSIC_RELEASE_CONTROL",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x56E3D235": {
+			"name": "AUDIO_MUSIC_SUSPEND",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5F48A85B": {
+			"name": "AUDIO_MUSIC_RESUME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x84435231": {
+			"name": "AUDIO_IS_MUSIC_PLAYING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x86E995D1": {
+			"name": "AUDIO_IS_SCRIPTED_MUSIC_PLAYING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9EC502D6": {
+			"name": "AUDIO_IS_FRONTEND_MUSIC_PLAYING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE0DE16BD": {
+			"name": "AUDIO_MUSIC_SET_SUSPENSE_ALLOWED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE2A37056": {
+			"name": "AUDIO_MUSIC_PLAY_UNSCRIPTED_NOW",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x72168160": {
+			"name": "AUDIO_PLAY_ALL_LINES_FOR_ACTOR",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xB3C3FF5E": {
+			"name": "_AUDIO_MINIGAME_START",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xEA2B35DB": {
+			"name": "_AUDIO_MINIGAME_STOP",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xCCE435E": {
+			"name": "_AUDIO_FILLET_MINIGAME_START",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x7784BB85": {
+			"name": "_AUDIO_FILLET_MINIGAME_HIT_FINGER",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x24AE7AFB": {
+			"name": "_AUDIO_FILLET_MINIGAME_HIT_TABLE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xDE7C65CE": {
+			"name": "_AUDIO_FILLET_MINIGAME_PULL_FROM_TABLE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x338DF299": {
+			"name": "_AUDIO_FILLET_MINIGAME_END",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x2D40E85C": {
+			"name": "AUDIO_ADD_ALTERNATE_CONTEXT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x900C489A": {
+			"name": "_AUDIO_CLEAR_ALL_ALTERNATE_CONTEXT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE8FFE727": {
+			"name": "LOAD_AUDIO_METADATA",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xB73AC04A": {
+			"name": "UNLOAD_AUDIO_METADATA",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xBFCF32D9": {
+			"name": "LOAD_AUDIO_SPEECH_DATA",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x37FD00EA": {
+			"name": "SET_AUDIO_SEARCH_PATH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x98CD7340": {
+			"name": "_AUDIO_GET_BANK_LOADING_STATUS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x8F4B5B8": {
+			"name": "LOAD_AUDIO_BANK",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x176E921C": {
+			"name": "_AUDIO_MAKE_SLOT_STATIC",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xBAEC56D1": {
+			"name": "_AUDIO_SET_MS_BETWEEN_PLAYER_TALKS_TO_SELF",
 			"comment": "",
 			"params": [],
 			"return_type": "void"
