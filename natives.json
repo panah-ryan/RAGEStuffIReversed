@@ -1177,5 +1177,943 @@
 			"params": [],
 			"return_type": "void"
 		}
+	},
+	"CORE": {
+		"0x176E921C": {
+			"name": "SET_DEBUG_DRAW",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xFF0B53EF": {
+			"name": "_0xFF0B53EF",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6DE957C6": {
+			"name": "_0x6DE957C6",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xA81DABA3": {
+			"name": "SCRIPT_BREAKPOINT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5AC72FCC": {
+			"name": "_0x5AC72FCC",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9FEFA743": {
+			"name": "_DISABLE_ACTOR_REF_COUNTING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xBC52445": {
+			"name": "GET_SCRIPT_NAME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x960DB7A5": {
+			"name": "GET_SHORT_SCRIPT_NAME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x245B6AB6": {
+			"name": "TERMINATE_THIS_SCRIPT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9C424E0D": {
+			"name": "GET_THIS_SCRIPT_ID",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x45F7D589": {
+			"name": "IS_SCRIPT_VALID",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xDEAB87AB": {
+			"name": "DOES_SCRIPT_EXIST",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x687ECC3C": {
+			"name": "IS_EXITFLAG_SET",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x4417C9F2": {
+			"name": "_IS_ANY_NAMED_SCRIPT_RUNNING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5719022": {
+			"name": "_TERMINATE_ALL_CHILD_SCRIPTS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x60A7FF09": {
+			"name": "TERMINATE_SCRIPT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x2F109475": {
+			"name": "ADD_PERSISTENT_SCRIPT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC605E92F": {
+			"name": "REMOVE_PERSISTENT_SCRIPT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x4C48EA4D": {
+			"name": "_GET_MAX_INSTRUCTION_COUNT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD058BD70": {
+			"name": "_GET_USED_INSTRUCTION_COUNT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x26884138": {
+			"name": "_GET_REMAINING_INSTRUCTION_COUNT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC0C6245E": {
+			"name": "RAND_SET_SEED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF8D0D165": {
+			"name": "RAND_INT_RANGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xCA6229BF": {
+			"name": "RAND_FLOAT_RANGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1D69F321": {
+			"name": "_RAND_RANGE_DIFFERENT_RANDOM_INT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5D934CCB": {
+			"name": "RAND_FLOAT_GAUSSIAN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x973BC454": {
+			"name": "FILE_START_PATH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x63CDBB01": {
+			"name": "FILE_ADD_TO_PATH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9A202E1B": {
+			"name": "FILE_END_PATH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6F323C5F": {
+			"name": "_FILE_GET_PATH",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x436CE75A": {
+			"name": "GET_X",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xB0FF6A1": {
+			"name": "GET_Y",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x25A02BC1": {
+			"name": "GET_Z",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x836466F8": {
+			"name": "VNORMALIZE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x4D629653": {
+			"name": "VCROSS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x30A9FA0A": {
+			"name": "VDOT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x13530581": {
+			"name": "VSCALE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF1A53C41": {
+			"name": "_VDIRECTION_VECTOR_FROM_EULERS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF76F2BB3": {
+			"name": "_VROTATE_VECTOR_FROM_EULERS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x65DAA654": {
+			"name": "_VROTATE_EULER_FROM_EULERS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1BD78730": {
+			"name": "_VROTATE_VECTOR_XZ",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x141201A3": {
+			"name": "_CONSTRUCT_MATRIX_AND_TRANSFORM",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xACF9A5E4": {
+			"name": "FABS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5AABFA97": {
+			"name": "ABS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x55842354": {
+			"name": "SIN_DEGREE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x430207A4": {
+			"name": "COS_DEGREE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9BD37A3D": {
+			"name": "TAN_DEGREE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x69BE2817": {
+			"name": "ATAN_DEGREE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x8A0D25F2": {
+			"name": "ATAN2_DEGREE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9C40E671": {
+			"name": "_GET_VECTOR_HEADING_DEGS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xADF7D54B": {
+			"name": "_GET_VECTOR_HEADING_RADS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3DD1DC3F": {
+			"name": "_GET_ANGLE_BETWEEN_VECTOR_DEGS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x44986367": {
+			"name": "_CREATE_VECTOR_FROM_HEADING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xBB3CDF72": {
+			"name": "_TRANSFORM_WORLD_TO_SCREEN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5842B9D1": {
+			"name": "_GET_CURRENT_TIME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF83666A6": {
+			"name": "GET_CURRENT_UNWARPED_TIME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x17CEE67A": {
+			"name": "GET_SYSTEM_TIME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD66B6C8E": {
+			"name": "GET_TIMESTAMP",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC589CD7D": {
+			"name": "GET_UTC_TIME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x49F96787": {
+			"name": "GET_UNWARPED_REALTIME_SECONDS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6E189771": {
+			"name": "GET_PROFILE_TIME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x59466B4D": {
+			"name": "GET_LAST_FRAME_TIME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x676167C3": {
+			"name": "LOG_MESSAGE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xFD25473E": {
+			"name": "LOG_WARNING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x906C42FD": {
+			"name": "LOG_ERROR",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xEF7427B": {
+			"name": "GET_TARGET_ACTOR",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x776356": {
+			"name": "GRINGO_SET_TARGET_OBJECT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x533AD3F2": {
+			"name": "GET_TARGET_OBJECT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x7C858A47": {
+			"name": "IS_GRINGO_VALID",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xADA2EA30": {
+			"name": "GET_GRINGO_ACTIVATION_SPHERE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xFD0AA999": {
+			"name": "DISABLE_GRINGO_STREAMING_CHECKS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x71BE51F4": {
+			"name": "ENABLE_GRINGO_STREAMING_CHECKS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5E586923": {
+			"name": "GRINGO_ALLOW_ACTIVATION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x52261CE0": {
+			"name": "_GRINGO_IS_USE_ALLOWED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x358F874F": {
+			"name": "_IS_DEBUG_KEY_DOWN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xCBC97619": {
+			"name": "_IS_DEBUG_KEY_PRESSED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC3297B50": {
+			"name": "IS_BUTTON_DOWN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x7BCB3F15": {
+			"name": "IS_BUTTON_PRESSED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xB04EB731": {
+			"name": "IS_BUTTON_RELEASED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x23C9C74A": {
+			"name": "GET_ANALOG_BUTTON_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9AAF7E28": {
+			"name": "GET_STICK_X",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x7C6D41A4": {
+			"name": "GET_STICK_Y",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x52B2F3F0": {
+			"name": "_0x52B2F3F0",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD4DEBC08": {
+			"name": "_0xD4DEBC08",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xBEC2871A": {
+			"name": "_0xBEC2871A",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xEF4F4F20": {
+			"name": "_0xEF4F4F20",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF7974EBA": {
+			"name": "DEBUG_DRAW_VECTOR",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x7C55C775": {
+			"name": "DEBUG_DRAW_LINE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x4A1BAD30": {
+			"name": "DEBUG_DRAW_SPHERE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x993E45D8": {
+			"name": "DEBUG_DRAW_STRING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3C2D93C1": {
+			"name": "_DEBUG_DRAW_STRING_ON_SCREEN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x73BE57AF": {
+			"name": "SET_DEBUG_FADE_STATE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD1D88EB8": {
+			"name": "_0xD1D88EB8",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x21E19CD5": {
+			"name": "_0x21E19CD5",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1B6FE39B": {
+			"name": "_0x1B6FE39B",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xAAEBAC28": {
+			"name": "_0xAAEBAC28",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x913A5CB6": {
+			"name": "_0x913A5CB6",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD34F7B3A": {
+			"name": "_0xD34F7B3A",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x191658C0": {
+			"name": "_0x191658C0",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x95132289": {
+			"name": "_0x95132289",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xEB8325B3": {
+			"name": "_0xEB8325B3",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD3FE15FB": {
+			"name": "_0xD3FE15FB",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x32D1DEB0": {
+			"name": "_0x32D1DEB0",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x48FBB83D": {
+			"name": "RETRIEVE_GAME_STATE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x800D6D89": {
+			"name": "STORE_GAME_STATE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE1124E00": {
+			"name": "_RESET_SCRIPT_STORED_DATA",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x7045C4E": {
+			"name": "RESET_GAME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3B1B6407": {
+			"name": "IS_GAME_RESETTING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC7612A79": {
+			"name": "_GET_PARAM_VALUE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xB2D5E4B": {
+			"name": "GET_DISTRICTS_NAME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x7C5901EF": {
+			"name": "LOAD_GAME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x234F932": {
+			"name": "LOAD_SOFT_SAVE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9C5D8D5": {
+			"name": "SAVE_GAME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1A3BAC68": {
+			"name": "SAVE_SOFT_SAVE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xED40F27D": {
+			"name": "_HARD_SAVE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x8C710D3E": {
+			"name": "_HARD_LOAD",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x17F34613": {
+			"name": "_CREATE_SAVE_DISPLAY_NAME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x20CE8AA8": {
+			"name": "_REGISTER_DATA",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x8E867DDD": {
+			"name": "_SET_SCRIPT_SAVE_VERSION_OLD",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6E79F939": {
+			"name": "_SET_SCRIPT_SAVE_VERSION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3E647734": {
+			"name": "_CREATE_SAVE_FILE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE8637D2B": {
+			"name": "_SAVE_REGISTER_STATS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6D59A25F": {
+			"name": "_SAVE_REGISTER_PROFILE_STATS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1D177160": {
+			"name": "_IS_SAVING_DISABLED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1ADA1769": {
+			"name": "_IS_SP_SAVING_DISABLED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xAABE1330": {
+			"name": "DOES_FILE_EXIST",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD44F7102": {
+			"name": "_0xD44F7102",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6D9AA768": {
+			"name": "IS_DEV_BUILD",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xA369B36F": {
+			"name": "IS_PS3",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xB427CB25": {
+			"name": "_ARE_BUMPER_BUTTONS_SWAPPED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x4BA92498": {
+			"name": "IS_DISK_CACHE_PRIMED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC3C0F1F2": {
+			"name": "IS_PLAYER_SIGNED_IN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xA183D927": {
+			"name": "GET_LOCAL_PLAYER_NAME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x8BD88B43": {
+			"name": "GET_NUM_WORLD_CAMERAS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1C7C0F86": {
+			"name": "GET_WORLD_CAMERA_AT_INDEX",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x836F42DA": {
+			"name": "GET_CLOSEST_WORLD_CAMERA",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6F32A4E2": {
+			"name": "PAUSE_GAME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xBF2CD82": {
+			"name": "UNPAUSE_GAME",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x57246C02": {
+			"name": "IS_GAME_PAUSED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xF0DDF83D": {
+			"name": "SET_SCRIPT_CUTSCENE_ACTIVE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3B417D4E": {
+			"name": "SET_MISSION_INFO",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x2092A6E": {
+			"name": "CLEAR_MISSION_INFO",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6CD7DCE1": {
+			"name": "_GET_START_POS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xCB93120": {
+			"name": "SET_START_POS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x814D97E8": {
+			"name": "_IS_START_POS_IN_COMMAND_LINE",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3B004817": {
+			"name": "_WAS_LAST_RESET_FOR_MULTIPLAYER",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5401F0CA": {
+			"name": "SCRIPT_DONE_LOADING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x85A30503": {
+			"name": "LAUNCH_NEW_SCRIPT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xA602F586": {
+			"name": "LAUNCH_NEW_SCRIPT_WITH_ARGS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x7CE2C2E1": {
+			"name": "IS_LAUNCH_RETAIL",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD8E31D42": {
+			"name": "IS_SIMULATE_START_PRESS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9A73C2CD": {
+			"name": "IS_SIMULATE_START_MULTIPLAYER",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x554FC5E0": {
+			"name": "IS_DISPLAY_WIDESCREEN",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x6226328F": {
+			"name": "_GET_EXP_MODE_PROMPT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x59F98CA9": {
+			"name": "_SET_EXP_MODE_PROMPT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xB5401D4A": {
+			"name": "GET_GAME_EDITION",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		}
 	}
 }
