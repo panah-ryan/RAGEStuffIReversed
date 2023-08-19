@@ -1,0 +1,183 @@
+{
+	"SYSTEM": {
+		"0x7715C03B": {
+			"name": "WAIT",
+			"comment": "Pauses execution of the current script, please note this behavior is only seen when called from one of the game script files.",
+			"params": [
+				{
+					"type": "int",
+					"name": "ms"
+				}
+			],
+			"return_type": "void"
+		},
+		"0x1185F9B": {
+			"name": "WAITUNWARPED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x7C496803": {
+			"name": "WAITUNPAUSED",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3F166D0E": {
+			"name": "START_NEW_SCRIPT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x4A2100E4": {
+			"name": "START_NEW_SCRIPT_WITH_ARGS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x35785333": {
+			"name": "SETTIMERA",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x50597EE2": {
+			"name": "TIMESTEP",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xECF8EB5F": {
+			"name": "PRINTSTRING",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD48B90B6": {
+			"name": "PRINTFLOAT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x63651F03": {
+			"name": "PRINTINT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x868997DA": {
+			"name": "PRINTNL",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x85F31FB": {
+			"name": "PRINTVECTOR",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x145C7701": {
+			"name": "SQRT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x85D134F8": {
+			"name": "POW",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xE2313450": {
+			"name": "EXP",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x1FCF1ECD": {
+			"name": "VMAG",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x3C08ECB7": {
+			"name": "VDIST",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xC85DEF1F": {
+			"name": "VDIST2",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x314CC6CD": {
+			"name": "SHIFT_LEFT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x352633CA": {
+			"name": "SHIFT_RIGHT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x32E9BE04": {
+			"name": "FLOOR",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xD536A1DF": {
+			"name": "CEIL",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x323B0E24": {
+			"name": "ROUND",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x67116627": {
+			"name": "TO_FLOAT",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x5A25520E": {
+			"name": "SNAPSHOT_GLOBALS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x2B547FE6": {
+			"name": "GET_LATEST_CONSOLE_COMMAND",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0xAA3EC981": {
+			"name": "RESET_LATEST_CONSOLE_COMMAND",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x9DE3DE24": {
+			"name": "_0x9DE3DE24",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		},
+		"0x608F5BC6": {
+			"name": "GET_NUM_CONSOLE_COMMAND_TOKENS",
+			"comment": "",
+			"params": [],
+			"return_type": "void"
+		}
+	}
+}
